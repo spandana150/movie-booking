@@ -1,0 +1,46 @@
+ 
+
+ <head>
+    <style>
+        #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid antiquewhite;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: antiquewhite;}
+
+#customers tr:hover {background-color: pink;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: palevioletred;
+  color: white;
+}
+    </style>
+ </head>
+ <html>
+    <table id="customers">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>tickets</th>
+            <th>action</th>
+        </tr>
+        <tr *ngFor="let a of arr1;let i=index">
+            <td>{{i+1}}</td>
+            <td>{{a.user_name}}</td>
+            <td>{{a.user_email}}</td>
+            <td>{{a.user_tickets}}</td>
+            <td><button class="button-1"><a routerLink="/update/{{i}}"  style="text-decoration:none;color:white" routerLinkActivity="active">EDIT</a></button></td>
+        </tr>
+     </table>
+ </html>

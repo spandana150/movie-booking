@@ -1,0 +1,5 @@
+
+<div class="body">
+<div class="demo" align="center"><h1>BOOK YOUR SHOW </h1> </div>
+<div *ngFor="let s of obj" class="movie" ><img src={{s.Poster}} ><h1 align="center">{{s.Title}}</h1><button align="center"><a  style="text-decoration:none;color:white" routerLink="/secondpage/{{s.Title}}/{{s.Year}}/{{s.Total}}/{{s.Theaters.names}}/{{s.Theaters.no_tickets}}" routerLinkActivity="active">BOOK NOW</a></button></div>
+</div>

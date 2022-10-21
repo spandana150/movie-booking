@@ -1,0 +1,62 @@
+.movie{
+    display:block;
+    float: left;
+    width:350px;
+    height:500px; 
+    margin-left:40px;
+    border: 2px solid none;
+    align-items: center; 
+    margin-top:5%; 
+    border-radius: 22px;
+    background-color: antiquewhite; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} 
+.demo{
+    width:1250PX;
+    height:50PX; 
+    background-color: #EA4C89;
+}
+img{
+    margin-left:25%;
+    margin-top:10%;
+    margin-bottom:5%;
+
+} 
+button{
+    background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; 
+  margin-bottom: 4%; 
+  margin-left: 35%;
+} 
+h1{
+    width: auto;
+    align-items: center;
+}  
+
+.body{
+    background: url("https://ia.media-imdb.com/images/M/MV5BYzc4ODgyZmYtMGFkZC00NGQyLWJiMDItMmFmNjJiZjcxYzVmXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg"); 
+    width:1250px;
+    hight:1250px;
+}

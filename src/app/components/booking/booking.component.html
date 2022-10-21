@@ -1,0 +1,23 @@
+<head>
+</head>
+<html>
+<body>
+    <div class="style"><button class="button-24" id="end"><a style="text-decoration:none" routerLink="/display/:{{arr}}"  routerLinkActivity="active">BOOKED DETAILS</a></button></div>
+    <div align="center" class="border">
+        <form class="form" [formGroup]="productForm">
+   
+  <div class="demo6"> 
+    <pre class="demo61" id="counting">theater:{{name}}       tickets:{{count}}</pre> 
+  Name:<input  formControlName="user_name" type="text"  name="user_name" size="25" id="naming" placehoder="enter your name"><br><br>
+  Email:<input formControlName="user_email" type="email"  size="25" name="user_email" id="email"  placeholder="enter email"><br><br> 
+   <div align="center">
+  <input type="text" formControlName="user_tickets" id="number" placeholder="enter no.of tickets" >
+</div><br>
+<input type="submit" class="button-24" (click)="update(productForm.value)">
+<br><br>
+</div>
+</form>
+</div>
+  
+</body>
+</html>

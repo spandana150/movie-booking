@@ -1,0 +1,44 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<div class="demo" > 
+    <div align="center" class="demo1">
+<h3 class="heading">WATCH TEASER</h3> 
+<br>
+<br>
+<button value="WATCH NOW"  class="button-1"><a style="text-decoration:none;color:white" href="{{pic}}"> WATCH TEASER </a></button>
+<br>
+<br>
+<h4>{{movie}}</h4>
+<h4>Total Number of Seats Available:{{total}}</h4>
+<h3>Theaters:</h3>
+<h2 class="style">{{names[0]}}</h2>
+<h3 class="style">Total Tickets Available:{{tickets[0]}}</h3> 
+<button value="booknow"  class="button-1"><a style="text-decoration:none;color:white" routerLink="/booking/{{names[0]}}/{{tickets[0]}}" routerLinkActivity="active">BOOK NOW</a></button>
+<h2 class="style">{{names[1]}}</h2>
+<h3 class="style">Total Tickets Available:{{tickets[1]}}</h3>
+<button value="booknow"  class="button-1"><a  style="text-decoration:none;COLOR:white" routerLink="/booking/{{names[1]}}/{{tickets[1]}}" routerLinkActivity="active">BOOK NOW</a></button> 
+</div>
+<div class="demo1">
+    <h3 class="heading" align="center">REVIEWS</h3>
+    <h2 align="center">Star Rating</h2>
+<span id="span" class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br><br><br>
+<img src="https://www.w3schools.com/howto/img_avatar2.png" class="size">
+<h5 class="demo4">The Batman is a fantastic film. This movie really explores batman in a very different way. Robert Pattinson does a phenomenal job as the caped crusader, so much so that when you look at batman, you also see Bruce Wayne and his inner torment and darkness lurking within. The scenes with Bruce without the suit interacting and Alfred were very effective and powerful</h5>
+<br><img src="https://www.w3schools.com/w3images/avatar6.png" class="size"> 
+<h5 class="demo4">From the first scene itself, it is made clear the amount of thought, work and creativity that has gone into the making of this movie. This movie will scare you, indulge you in its mystery, excite you with its action and amaze you with its commitment to telling a truly dark and gritty tale about the corruption in Gotham. Matt Reeves has done masterful work in directing each scene. He is a point of view driven director.</h5>
+</div> 
+</div>
+
+
+
+
